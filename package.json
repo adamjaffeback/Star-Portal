@@ -1,0 +1,12 @@
+{
+  "name": "Star-Portal",
+  "version": "1.0.0",
+  "description": "Personal webpage for Adam Back",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "Adam Back",
+  "license": "MIT"
+}
