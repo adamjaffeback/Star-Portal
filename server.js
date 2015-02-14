@@ -7,9 +7,8 @@ app.set('base url', process.env.URL || 'http://localhost');
 
 var port = app.get('port');
 
-app.get('/', function(req, res) {
-  res.send('hello world');
-});
+// GET /style.css etc
+app.use(express.static(__dirname + '/'));
 
 app.listen(port);
 console.log('Listening on port ' + port + '.');
