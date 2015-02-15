@@ -8,5 +8,8 @@
     "start": "node server.js"
   },
   "author": "Adam Back",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
 }
