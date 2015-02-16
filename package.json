@@ -10,6 +10,8 @@
   "author": "Adam Back",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.11.2"
+    "bootstrap": "^3.3.2",
+    "express": "^4.11.2",
+    "jquery": "^2.1.3"
   }
 }
