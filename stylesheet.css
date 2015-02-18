@@ -20,6 +20,11 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
     to {background-position:-10000px 5000px;}
 }
 
+h1{
+  z-index: 4;
+  color: red;
+}
+
 .stars, .twinkling {
   position:absolute;
   top:0;
@@ -33,12 +38,12 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
 
 .stars {
   background:#000 url(stardust.jpg) repeat top center;
-  z-index:0;
+  z-index:-2;
 }
 
 .twinkling{
   background:transparent url(twinkling.png) repeat top center;
-  z-index:1;
+  z-index:-1;
 
   -moz-animation:move-twink-back 200s linear infinite;
   -ms-animation:move-twink-back 200s linear infinite;
