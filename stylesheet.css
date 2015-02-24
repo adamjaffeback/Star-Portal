@@ -94,3 +94,35 @@ body {
 #blog.lines {
   background: url(icons/lines_blog.png);
 }
+
+#camera.const {
+  background: url(icons/cons_camera.png);
+}
+
+#camera.lines {
+  background: url(icons/lines_camera.png);
+}
+
+#github.const {
+  background: url(icons/cons_github.png);
+}
+
+#github.lines {
+  background: url(icons/lines_github.png);
+}
+
+#linkedin.const {
+  background: url(icons/cons_linkedin.png);
+}
+
+#linkedin.lines {
+  background: url(icons/lines_linkedin.png);
+}
+
+#travel.const {
+  background: url(icons/cons_travel.png);
+}
+
+#travel.lines {
+  background: url(icons/lines_travel.png);
+}
