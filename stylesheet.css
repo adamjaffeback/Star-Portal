@@ -20,7 +20,11 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
     to {background-position:-10000px 5000px;}
 }
 
-.twinkling {
+html {
+  background:#000 url(stardust.jpg) repeat center center;
+}
+
+body {
   position: fixed;
   top:0;
   left:0;
@@ -29,6 +33,14 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
   width:100%;
   height:100%;
   display:block;
+  background:transparent url(twinkling.png) repeat center center;
+  z-index:-1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
 }
 
 .row-centered {
@@ -43,17 +55,3 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
     margin-right:-4px;
 }
 
-.star {
-  background:#000 url(stardust.jpg) repeat center center;
-}
-
-.twinkling{
-  background:transparent url(twinkling.png) repeat center center;
-  z-index:-1;
-
-  -moz-animation:move-twink-back 200s linear infinite;
-  -ms-animation:move-twink-back 200s linear infinite;
-  -o-animation:move-twink-back 200s linear infinite;
-  -webkit-animation:move-twink-back 200s linear infinite;
-  animation:move-twink-back 200s linear infinite;
-}
