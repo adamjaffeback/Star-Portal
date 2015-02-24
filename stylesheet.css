@@ -56,15 +56,21 @@ body {
 }
 
 .const {
-  background: url(icons/cons_AB.png);
   width: 500px;
   height: 500px;
+}
+
+#AB.const {
+  background: url(icons/cons_AB.png);
+}
+
+#AB.lines {
+  background: url(icons/lines_AB.png);
 }
 
 .const .lines { 
   width: 500px;
   height: 500px;
-  background: url(icons/lines_AB.png);
   -webkit-opacity: 0.25;
   -moz-opacity: 0.25;
   opacity: 0;
