@@ -65,14 +65,19 @@ body {
   width: 500px;
   height: 500px;
   background: url(icons/lines_AB.png);
+  -webkit-opacity: 0.25;
+  -moz-opacity: 0.25;
   opacity: 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .const:hover .lines {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
   opacity: 1;
-  -webkit-transition: all 1s ease-in-out;
-      -moz-transition: all 1s ease-in-out;
-      -o-transition: all 1s ease-in-out;
-      transition: all 1s ease-in-out;
 }
 
