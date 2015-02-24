@@ -25,13 +25,8 @@ a {
   height: 500px;
 }
 
-div.constellations{
-  z-index: 4;
-  color: red;
-}
-
 .stars, .twinkling {
-  position:absolute;
+  position: absolute;
   top:0;
   left:0;
   right:0;
@@ -41,13 +36,25 @@ div.constellations{
   display:block;
 }
 
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
 .stars {
-  background:#000 url(stardust.jpg) repeat top center;
+  background:#000 url(stardust.jpg) repeat center center;
   z-index:-2;
 }
 
 .twinkling{
-  background:transparent url(twinkling.png) repeat top center;
+  background:transparent url(twinkling.png) repeat center center;
   z-index:-1;
 
   -moz-animation:move-twink-back 200s linear infinite;
