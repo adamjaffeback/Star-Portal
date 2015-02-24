@@ -20,6 +20,11 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
     to {background-position:-10000px 5000px;}
 }
 
+a {
+  width: 500px;
+  height: 500px;
+}
+
 div.constellations{
   z-index: 4;
   color: red;
