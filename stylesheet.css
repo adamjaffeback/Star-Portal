@@ -60,14 +60,6 @@ body {
   height: 500px;
 }
 
-#AB.const {
-  background: url(icons/cons_AB.png);
-}
-
-#AB.lines {
-  background: url(icons/lines_AB.png);
-}
-
 .const .lines { 
   width: 500px;
   height: 500px;
@@ -87,3 +79,18 @@ body {
   opacity: 1;
 }
 
+#AB.const {
+  background: url(icons/cons_AB.png);
+}
+
+#AB.lines {
+  background: url(icons/lines_AB.png);
+}
+
+#blog.const {
+  background: url(icons/cons_blog.png);
+}
+
+#blog.lines {
+  background: url(icons/lines_blog.png);
+}
