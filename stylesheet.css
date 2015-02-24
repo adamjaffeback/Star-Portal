@@ -43,7 +43,7 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
     margin-right:-4px;
 }
 
-body {
+.star {
   background:#000 url(stardust.jpg) repeat center center;
 }
 
