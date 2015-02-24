@@ -20,13 +20,8 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
     to {background-position:-10000px 5000px;}
 }
 
-a {
-  width: 500px;
-  height: 500px;
-}
-
-.stars, .twinkling {
-  position: absolute;
+.twinkling {
+  position: fixed;
   top:0;
   left:0;
   right:0;
@@ -48,9 +43,8 @@ a {
     margin-right:-4px;
 }
 
-.stars {
+body {
   background:#000 url(stardust.jpg) repeat center center;
-  z-index:-2;
 }
 
 .twinkling{
