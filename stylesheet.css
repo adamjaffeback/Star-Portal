@@ -56,13 +56,13 @@ body {
 }
 
 .const {
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
 }
 
 .const .lines { 
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
   -webkit-opacity: 0.25;
   -moz-opacity: 0.25;
   opacity: 0;
@@ -96,11 +96,13 @@ body {
 }
 
 #camera.const {
-  background: url(icons/cons_camera.png);
+  background: url(icons/cons_camera.png) no-repeat;
+  background-size: 100%;
 }
 
 #camera.lines {
-  background: url(icons/lines_camera.png);
+  background: url(icons/lines_camera.png) no-repeat;
+  background-size: 100%;
 }
 
 #github.const {
