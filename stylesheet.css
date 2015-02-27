@@ -58,10 +58,12 @@ body {
 a:hover, a:visited, a:link, a:active {
   height: 100%;
   width: 100%;
-  font-size: 2em;
+  font-size: 1.5em;
   text-decoration: none;
-  color: white;
+  color: #475da1;
   font-family: 'Noto Serif', serif;
+  text-align: center;
+  opacity: .6;
 }
 
 .const {
@@ -118,6 +120,11 @@ a:hover, a:visited, a:link, a:active {
   background-size: cover;
 }
 
+#camera p {
+  position: relative;
+  top: 10em;
+}
+
 #github.const {
   background: url(icons/cons_github.png);
   background-size: cover;
@@ -146,4 +153,10 @@ a:hover, a:visited, a:link, a:active {
 #travel.lines {
   background: url(icons/lines_travel.png);
   background-size: cover;
+}
+
+#travel p {
+  position: relative;
+  top: 3.5em;
+  left: 4em;
 }
