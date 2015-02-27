@@ -57,7 +57,7 @@ body {
 
 .container {
   position: relative;
-  top: 2em;
+  top: 1em;
 }
 
 a:hover, a:visited, a:link, a:active {
@@ -72,13 +72,13 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .const {
-  width: 250px;
-  height: 250px;
+  width: 12.5em;
+  height: 12.5em;
 }
 
 .const .lines { 
-  width: 250px;
-  height: 250px;
+  width: 12.5em;
+  height: 12.5em;
   -webkit-opacity: 0.25;
   -moz-opacity: 0.25;
   opacity: 0;
@@ -115,6 +115,11 @@ a:hover, a:visited, a:link, a:active {
   background-size: cover;
 }
 
+#blog p {
+  position: relative;
+  top: -.25em;
+}
+
 #camera.const {
   background: url(icons/cons_camera.png);
   background-size: cover;
@@ -143,6 +148,12 @@ a:hover, a:visited, a:link, a:active {
 #linkedin.const {
   background: url(icons/cons_linkedin.png);
   background-size: cover;
+}
+
+#linkedin p {
+  position: relative;
+  top: 2.5em;
+  left: 1em;
 }
 
 #linkedin.lines {
