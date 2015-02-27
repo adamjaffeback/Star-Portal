@@ -55,9 +55,12 @@ body {
     margin-right:-4px;
 }
 
-a {
+a:hover, a:visited, a:link, a:active {
   height: 100%;
   width: 100%;
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
 }
 
 .const {
