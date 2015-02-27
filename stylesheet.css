@@ -68,17 +68,17 @@ a:hover, a:visited, a:link, a:active {
   color: #475da1;
   font-family: 'Noto Serif', serif;
   text-align: center;
-  opacity: .6;
+  opacity: .5;
 }
 
 .const {
-  width: 12.5em;
-  height: 12.5em;
+  width: 11em;
+  height: 11em;
 }
 
 .const .lines { 
-  width: 12.5em;
-  height: 12.5em;
+  width: 11em;
+  height: 11em;
   -webkit-opacity: 0.25;
   -moz-opacity: 0.25;
   opacity: 0;
@@ -96,13 +96,23 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #AB.const {
+  width: 14em;
+  height: 14em;
   background: url(icons/cons_AB.png);
   background-size: cover;
 }
 
 #AB.lines {
+  width: 14em;
+  height: 14em;
   background: url(icons/lines_AB.png);
   background-size: cover;
+}
+
+#AB p {
+  position: relative;
+  top: 8em;
+  left: 7em;
 }
 
 #blog.const {
@@ -132,7 +142,7 @@ a:hover, a:visited, a:link, a:active {
 
 #camera p {
   position: relative;
-  top: 10em;
+  top: 9em;
 }
 
 #github.const {
@@ -143,6 +153,12 @@ a:hover, a:visited, a:link, a:active {
 #github.lines {
   background: url(icons/lines_github.png);
   background-size: cover;
+}
+
+#github p {
+  position: relative;
+  top: 5.75em;
+  left: -5.75em;
 }
 
 #linkedin.const {
