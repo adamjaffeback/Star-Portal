@@ -61,13 +61,13 @@ a {
 }
 
 .const {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .const .lines { 
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   -webkit-opacity: 0.25;
   -moz-opacity: 0.25;
   opacity: 0;
@@ -86,60 +86,60 @@ a {
 
 #AB.const {
   background: url(icons/cons_AB.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #AB.lines {
   background: url(icons/lines_AB.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #blog.const {
   background: url(icons/cons_blog.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #blog.lines {
   background: url(icons/lines_blog.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #camera.const {
   background: url(icons/cons_camera.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #camera.lines {
   background: url(icons/lines_camera.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #github.const {
   background: url(icons/cons_github.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #github.lines {
   background: url(icons/lines_github.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #linkedin.const {
   background: url(icons/cons_linkedin.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #linkedin.lines {
   background: url(icons/lines_linkedin.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #travel.const {
   background: url(icons/cons_travel.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 #travel.lines {
   background: url(icons/lines_travel.png);
-  background-size: 100%;
+  background-size: cover;
 }
