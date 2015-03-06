@@ -7,7 +7,12 @@ if ( userAgent.match( /Android|iPhone|iPad|Mobile/ ) !== null ) {
 
 if ( isMobile ) {
 
-  document.body.style.background = 'transparent';
-  document.getElementsByTagName('html')[0].style.background = 'red';
+  var lines = document.getElementsByClassName('lines');
+
+  console.log('lines', lines);
+
+  for (var i = 0; i < lines.length; i++) {
+    lines[i].style.opacity = 1;
+  };
 
 }
