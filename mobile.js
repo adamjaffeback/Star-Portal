@@ -1,20 +1,13 @@
 var userAgent = navigator.userAgent;
 var isMobile = false;
 
-(function () {
-  var searchStrings = ['Android', 'iPhone', 'iPad', 'Mobile'];
+if ( userAgent.match( /Android|iPhone|iPad|Mobile/ ) !== null ) {
+  isMobile = true;
+}
 
-  for (var i = 0; i < searchStrings.length; i++) {
-    if( userAgent.match( searchStrings[i] ) !== null ) {
-      isMobile = true;
-      break;
-    } 
-  };
-}());
+if ( isMobile ) {
 
-if( isMobile ) {
-
-  document.body.style.background = 'blue';
+  document.body.style.background = 'transparent';
   document.getElementsByTagName('html')[0].style.background = 'red';
 
 }
