@@ -13,7 +13,8 @@ var isMobile = false;
 }());
 
 if( isMobile ) {
-  alert("I'm mobile!");
-} else {
-  alert("I'm not mobile!");
+
+  document.body.style.background = 'blue';
+  document.getElementsByTagName('html')[0].style.background = 'red';
+
 }
