@@ -115,18 +115,20 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #blog.const {
+  margin-top: 1em;
   background: url(icons/cons_blog.png);
   background-size: cover;
 }
 
 #blog.lines {
+  margin-top: 1em;
   background: url(icons/lines_blog.png);
   background-size: cover;
 }
 
 #blog p {
   position: relative;
-  top: -.25em;
+  top: -.5em;
 }
 
 #camera.const {
