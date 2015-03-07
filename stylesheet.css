@@ -60,14 +60,15 @@ body {
 }
 
 div button {
-  height: 80%;
-  width: 80%;
+  position: relative;
+  height: 4em;
+  width: 4em;
   font-size: 1em;
   color: #687497;
   font-family: 'Noto Serif', serif;
   text-align: center;
-  opacity: .5;
-  
+  opacity: .25;
+  top: 7em;
 }
 
 a:hover, a:visited, a:link, a:active {

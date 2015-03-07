@@ -31,4 +31,6 @@ if ( isMobile ) {
   for (var i = 0; i < anchors.length; i++) {
     anchors[i].style.fontSize = '1.1em';
   };
+} else {
+  // reveal button
 }
