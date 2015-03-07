@@ -35,3 +35,10 @@ if ( isMobile ) {
   // reveal button
   document.getElementById('reveal').style.top = '1.5em';
 }
+
+var showLines = function() {
+  var lines = document.getElementsByClassName('lines');
+  for (var i = 0; i < lines.length; i++) {
+    lines[i].style.opacity = 1;
+  };
+};
