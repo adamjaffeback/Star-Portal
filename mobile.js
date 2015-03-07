@@ -36,9 +36,27 @@ if ( isMobile ) {
   document.getElementById('reveal').style.top = '1.5em';
 }
 
-var showLines = function() {
-  var lines = document.getElementsByClassName('lines');
-  for (var i = 0; i < lines.length; i++) {
-    lines[i].style.opacity = 1;
-  };
+var toggleLines = function() {
+  var glyph = document.getElementsByClassName('glyphicon glyphicon-eye-open') ;
+
+  // if the glyphicon is eye-open
+  if( glyph[0] !== undefined ) {
+    // show the lines
+    var lines = document.getElementsByClassName('lines');
+    for (var i = 0; i < lines.length; i++) {
+      lines[i].style.opacity = 1;
+    };
+
+    // change the glyph
+    glyph[0].className = 'glyphicon glyphicon-eye-close'; 
+  } else {
+    // hide the lines
+    var lines = document.getElementsByClassName('lines');
+    for (var i = 0; i < lines.length; i++) {
+      lines[i].style.opacity = 0;
+    };
+
+    // change the glyph
+    document.getElementsByClassName('glyphicon glyphicon-eye-close')[0].className = 'glyphicon glyphicon-eye-open'; 
+  }
 };
