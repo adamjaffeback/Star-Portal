@@ -32,8 +32,10 @@ if ( isMobile ) {
     anchors[i].style.fontSize = '1.1em';
   };
 } else {
-  // reveal button
-  document.getElementById('reveal').style.top = '2em';
+  setTimeout(function() {
+    // reveal button
+    document.getElementById('reveal').style.top = '2em';
+  }, 6000);
 }
 
 var toggleLines = function() {
