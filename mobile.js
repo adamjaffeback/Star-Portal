@@ -33,7 +33,7 @@ if ( isMobile ) {
   };
 } else {
   // reveal button
-  document.getElementById('reveal').style.top = '1.5em';
+  document.getElementById('reveal').style.top = '2em';
 }
 
 var toggleLines = function() {
