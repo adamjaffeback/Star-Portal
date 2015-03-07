@@ -21,4 +21,9 @@ if ( isMobile ) {
   document.body.style['animation'] = 0;
 
   // Move labels under constellations
+  var labels = document.getElementsByTagName('p');
+  for (var i = 0; i < labels.length; i++) {
+    labels[i].style.top = '5em';
+    labels[i].style.left = '6em';
+  };
 }
