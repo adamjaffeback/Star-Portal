@@ -24,6 +24,11 @@ if ( isMobile ) {
   var labels = document.getElementsByTagName('p');
   for (var i = 0; i < labels.length; i++) {
     labels[i].style.top = '5em';
-    labels[i].style.left = '6em';
+    labels[i].style.left = '7em';
+  };
+
+  var anchors = document.getElementsByTagName('p');
+  for (var i = 0; i < anchors.length; i++) {
+    anchors[i].style.fontSize = '1.1em';
   };
 }
