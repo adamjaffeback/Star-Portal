@@ -13,4 +13,7 @@ if ( isMobile ) {
     lines[i].style.opacity = 1;
   };
 
+  // Stop Twinkling
+
+  // Move labels under constellations
 }
