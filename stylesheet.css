@@ -59,6 +59,17 @@ body {
   top: -1em;
 }
 
+div button {
+  height: 80%;
+  width: 80%;
+  font-size: 1em;
+  color: #687497;
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  opacity: .5;
+  
+}
+
 a:hover, a:visited, a:link, a:active {
   height: 100%;
   width: 100%;
