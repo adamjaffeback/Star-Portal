@@ -95,15 +95,15 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #AB.const {
-  width: 14em;
-  height: 14em;
+  width: 12.5em;
+  height: 12.5em;
   background: url(icons/cons_AB.png);
   background-size: cover;
 }
 
 #AB.lines {
-  width: 14em;
-  height: 14em;
+  width: 12.5em;
+  height: 12.5em;
   background: url(icons/lines_AB.png);
   background-size: cover;
 }
@@ -141,7 +141,8 @@ a:hover, a:visited, a:link, a:active {
 
 #camera p {
   position: relative;
-  top: 9em;
+  top: 5em;
+  left: 7em;
 }
 
 #github.const {
@@ -155,12 +156,16 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #github p {
+  width: 10.5em;
+  height: 10.5em;
   position: relative;
   top: 5.75em;
   left: -5.75em;
 }
 
 #linkedin.const {
+  width: 10.5em;
+  height: 10.5em;
   background: url(icons/cons_linkedin.png);
   background-size: cover;
 }
