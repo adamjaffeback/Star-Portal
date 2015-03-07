@@ -23,7 +23,7 @@ if ( isMobile ) {
   // Move labels under constellations
   var labels = document.getElementsByTagName('p');
   for (var i = 0; i < labels.length; i++) {
-    labels[i].style.bottom = '-20px';
-    labels[i].style.left = 'auto';
+    labels[i].style.top = '5em';
+    labels[i].style.left = '6em';
   };
 }
