@@ -14,6 +14,11 @@ if ( isMobile ) {
   };
 
   // Stop Twinkling
+  document.body.style['-moz-animation'] = 0;
+  document.body.style['-ms-animation'] = 0;
+  document.body.style['-o-animation'] = 0;
+  document.body.style['-webkit-animation'] = 0;
+  document.body.style['animation'] = 0;
 
   // Move labels under constellations
 }
