@@ -60,7 +60,7 @@ body {
 }
 
 div button {
-  position: relative;
+  position: absolute;
   height: 4em;
   width: 4em;
   font-size: 1em;
@@ -68,7 +68,8 @@ div button {
   font-family: 'Noto Serif', serif;
   text-align: center;
   opacity: .25;
-  top: 7em;
+  top: 1.5em;
+  right: -4.5em;
 }
 
 a:hover, a:visited, a:link, a:active {
