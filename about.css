@@ -25,6 +25,7 @@ body {
   margin: 2em auto;
   width: 60%;
   display: block;
+  border-radius: 4px;
 }
 
 .container-fluid {
