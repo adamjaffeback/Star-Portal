@@ -50,7 +50,7 @@ body {
   margin: 0 0 0 -6em;
   top: auto;
   bottom: 0;
-  height: 110em;
+  height: 75em;
   font-size: 450%;
   text-align: justify;
   overflow: hidden;
@@ -64,8 +64,8 @@ body {
 .starwars .titles > div {
   position: absolute;
   top: 100%;
-  -webkit-animation: titles 70s linear 14s;
-          animation: titles 70s linear 14s;
+  -webkit-animation: titles 75s linear 14s;
+          animation: titles 75s linear 14s;
 }
 .starwars .titles > div > p {
   margin: 1.35em 0 1.85em 0;
