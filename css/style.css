@@ -46,12 +46,12 @@ body {
   width: inherit;
 }
 .starwars .titles {
-  width: 14.65em;
-  margin: 0 0 0 -7.325em;
+  width: 12em;
+  margin: 0 0 0 -6em;
   top: auto;
   bottom: 0;
-  height: 50em;
-  font-size: 375%;
+  height: 110em;
+  font-size: 450%;
   text-align: justify;
   overflow: hidden;
   -webkit-transform-origin: 50% 100%;
@@ -64,8 +64,8 @@ body {
 .starwars .titles > div {
   position: absolute;
   top: 100%;
-  -webkit-animation: titles 15s linear 13s;
-          animation: titles 15s linear 13s;
+  -webkit-animation: titles 70s linear 14s;
+          animation: titles 70s linear 14s;
 }
 .starwars .titles > div > p {
   margin: 1.35em 0 1.85em 0;
