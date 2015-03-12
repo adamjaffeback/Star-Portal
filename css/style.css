@@ -51,21 +51,21 @@ body {
   top: auto;
   bottom: 0;
   height: 50em;
-  font-size: 350%;
+  font-size: 375%;
   text-align: justify;
   overflow: hidden;
   -webkit-transform-origin: 50% 100%;
       -ms-transform-origin: 50% 100%;
           transform-origin: 50% 100%;
-  -ms-transform: perspective(300px) rotateX(25deg);
-  -webkit-transform: perspective(300px) rotateX(25deg);
-  transform: perspective(300px) rotateX(25deg);
+  -ms-transform: perspective(900px) rotateX(55deg);
+  -webkit-transform: perspective(900px) rotateX(55deg);
+  transform: perspective(900px) rotateX(55deg);
 }
 .starwars .titles > div {
   position: absolute;
   top: 100%;
-  -webkit-animation: titles 45s linear 13s;
-          animation: titles 45s linear 13s;
+  -webkit-animation: titles 15s linear 13s;
+          animation: titles 15s linear 13s;
 }
 .starwars .titles > div > p {
   margin: 1.35em 0 1.85em 0;
