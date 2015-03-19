@@ -20,6 +20,30 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
     to {background-position:-10000px 5000px;}
 }
 
+@keyframes introFade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes introFade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 html {
   background:#000 url(stardust.jpg) repeat center center;
 }
@@ -99,6 +123,9 @@ a:hover, a:visited, a:link, a:active {
   -ms-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
+
+  -webkit-animation: introFade 4s ease-out 3s;
+          animation: introFade 4s ease-out 3s;
 }
 
 .const:hover .lines {
