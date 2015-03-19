@@ -196,6 +196,8 @@ a:hover, a:visited, a:link, a:active {
 #blog p {
   position: relative;
   top: -.5em;
+  -webkit-animation: introStayDark 8s 2s;
+          animation: introStayDark 8s 2s;
 }
 
 #camera.const {
@@ -212,6 +214,8 @@ a:hover, a:visited, a:link, a:active {
   position: relative;
   top: 5em;
   left: 7em;
+  -webkit-animation: introStayDark 8s 2s;
+          animation: introStayDark 8s 2s;
 }
 
 #github.const {
@@ -230,6 +234,8 @@ a:hover, a:visited, a:link, a:active {
   position: relative;
   top: 5.75em;
   left: -5.75em;
+  -webkit-animation: introStayDark 8s 2s;
+          animation: introStayDark 8s 2s;
 }
 
 #linkedin.const {
@@ -239,15 +245,18 @@ a:hover, a:visited, a:link, a:active {
   background-size: cover;
 }
 
-#linkedin p {
-  position: relative;
-  top: 2.5em;
-  left: 1em;
-}
 
 #linkedin.lines {
   background: url(icons/lines_linkedin.png);
   background-size: cover;
+}
+
+#linkedin p {
+  position: relative;
+  top: 2.5em;
+  left: 1em;
+  -webkit-animation: introStayDark 8s 2s;
+          animation: introStayDark 8s 2s;
 }
 
 #travel.const {
@@ -264,4 +273,6 @@ a:hover, a:visited, a:link, a:active {
   position: relative;
   top: 3.5em;
   left: 4em;
+  -webkit-animation: introStayDark 8s 2s;
+          animation: introStayDark 8s 2s;
 }
