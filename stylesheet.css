@@ -211,7 +211,6 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #AB p {
-  position: relative;
   top: 8em;
   left: 7em;
   -webkit-animation: introStayDark 8s 2s;
@@ -233,7 +232,6 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #blog p {
-  position: relative;
   top: -.5em;
 }
 
@@ -248,7 +246,6 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #camera p {
-  position: relative;
   top: 5em;
   left: 7em;
 }
@@ -266,7 +263,6 @@ a:hover, a:visited, a:link, a:active {
 #github p {
   width: 10.5em;
   height: 10.5em;
-  position: relative;
   top: 5.75em;
   left: -5.75em;
 }
@@ -285,7 +281,6 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #linkedin p {
-  position: relative;
   top: 2.5em;
   left: 1em;
 }
@@ -301,12 +296,12 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #travel p {
-  position: relative;
   top: 3.5em;
   left: 4em;
 }
 
 div.lines > p {
+  position: relative;
   -webkit-animation: introStayDark 8s 2s;
   -moz-animation: introStayDark 8s 2s;
   -ms-animation: introStayDark 8s 2s;
