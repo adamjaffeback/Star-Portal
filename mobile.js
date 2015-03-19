@@ -11,6 +11,8 @@ if ( isMobile ) {
   var lines = document.getElementsByClassName('lines');
   for (var i = 0; i < lines.length; i++) {
     lines[i].style.opacity = 1;
+    lines[i].style['-webkit-animation'] = 0;
+    lines[i].style['animation'] = 0;
   };
 
   // Stop Twinkling
@@ -25,6 +27,8 @@ if ( isMobile ) {
   for (var i = 0; i < labels.length; i++) {
     labels[i].style.top = '5em';
     labels[i].style.left = '7em';
+    labels[i].style['-webkit-animation'] = 0;
+    labels[i].style['animation'] = 0;
   };
 
   var anchors = document.getElementsByTagName('p');
