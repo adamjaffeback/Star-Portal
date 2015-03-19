@@ -50,6 +50,36 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
   }
 }
 
+@-moz-keyframes introFade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .9;
+  }
+  70% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes introFade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .9;
+  }
+  70% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 @keyframes introStayDark {
   0% {
     opacity: 0;
@@ -60,6 +90,24 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
 }
 
 @-webkit-keyframes introStayDark {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes introStayDark {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes introStayDark {
   0% {
     opacity: 0;
   }
@@ -149,7 +197,9 @@ a:hover, a:visited, a:link, a:active {
   transition: all 1s ease;
 
   -webkit-animation: introFade 8s ease-in-out 2s;
-          animation: introFade 8s ease-in-out 2s;
+  -moz-animation: introFade 8s ease-in-out 2s;
+  -ms-animation: introFade 8s ease-in-out 2s;
+  animation: introFade 8s ease-in-out 2s;
   
 }
 
@@ -178,7 +228,9 @@ a:hover, a:visited, a:link, a:active {
   top: 8em;
   left: 7em;
   -webkit-animation: introStayDark 8s 2s;
-          animation: introStayDark 8s 2s;
+  -moz-animation: introStayDark 8s 2s;
+  -ms-animation: introStayDark 8s 2s;
+  animation: introStayDark 8s 2s;
 }
 
 #blog.const {
@@ -197,7 +249,9 @@ a:hover, a:visited, a:link, a:active {
   position: relative;
   top: -.5em;
   -webkit-animation: introStayDark 8s 2s;
-          animation: introStayDark 8s 2s;
+  -moz-animation: introStayDark 8s 2s;
+  -ms-animation: introStayDark 8s 2s;
+  animation: introStayDark 8s 2s;
 }
 
 #camera.const {
@@ -215,7 +269,9 @@ a:hover, a:visited, a:link, a:active {
   top: 5em;
   left: 7em;
   -webkit-animation: introStayDark 8s 2s;
-          animation: introStayDark 8s 2s;
+  -moz-animation: introStayDark 8s 2s;
+  -ms-animation: introStayDark 8s 2s;
+  animation: introStayDark 8s 2s;
 }
 
 #github.const {
@@ -235,7 +291,9 @@ a:hover, a:visited, a:link, a:active {
   top: 5.75em;
   left: -5.75em;
   -webkit-animation: introStayDark 8s 2s;
-          animation: introStayDark 8s 2s;
+  -moz-animation: introStayDark 8s 2s;
+  -ms-animation: introStayDark 8s 2s;
+  animation: introStayDark 8s 2s;
 }
 
 #linkedin.const {
@@ -256,7 +314,9 @@ a:hover, a:visited, a:link, a:active {
   top: 2.5em;
   left: 1em;
   -webkit-animation: introStayDark 8s 2s;
-          animation: introStayDark 8s 2s;
+  -moz-animation: introStayDark 8s 2s;
+  -ms-animation: introStayDark 8s 2s;
+  animation: introStayDark 8s 2s;
 }
 
 #travel.const {
@@ -274,5 +334,7 @@ a:hover, a:visited, a:link, a:active {
   top: 3.5em;
   left: 4em;
   -webkit-animation: introStayDark 8s 2s;
-          animation: introStayDark 8s 2s;
+  -moz-animation: introStayDark 8s 2s;
+  -ms-animation: introStayDark 8s 2s;
+  animation: introStayDark 8s 2s;
 }

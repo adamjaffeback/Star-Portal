@@ -28,6 +28,8 @@ if ( isMobile ) {
     labels[i].style.top = '5em';
     labels[i].style.left = '7em';
     labels[i].style['-webkit-animation'] = 0;
+    labels[i].style['-ms-animation'] = 0;
+    labels[i].style['-moz-animation'] = 0;
     labels[i].style['animation'] = 0;
   };
 
