@@ -155,19 +155,6 @@ body {
   top: -1em;
 }
 
-div button {
-  position: absolute;
-  height: 4em;
-  width: 4em;
-  font-size: 1em;
-  color: #687497;
-  font-family: 'Noto Serif', serif;
-  text-align: center;
-  opacity: .25;
-  top: -9999em;
-  right: -4em;
-}
-
 a:hover, a:visited, a:link, a:active {
   height: 100%;
   width: 100%;

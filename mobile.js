@@ -37,34 +37,4 @@ if ( isMobile ) {
   for (var i = 0; i < anchors.length; i++) {
     anchors[i].style.fontSize = '1.1em';
   };
-} else {
-  setTimeout(function() {
-    // reveal button
-    document.getElementById('reveal').style.top = '2em';
-  }, 6000);
 }
-
-var toggleLines = function() {
-  var glyph = document.getElementsByClassName('glyphicon glyphicon-eye-open') ;
-
-  // if the glyphicon is eye-open
-  if( glyph[0] !== undefined ) {
-    // show the lines
-    var lines = document.getElementsByClassName('lines');
-    for (var i = 0; i < lines.length; i++) {
-      lines[i].style.opacity = 1;
-    };
-
-    // change the glyph
-    glyph[0].className = 'glyphicon glyphicon-eye-close'; 
-  } else {
-    // hide the lines
-    var lines = document.getElementsByClassName('lines');
-    for (var i = 0; i < lines.length; i++) {
-      lines[i].style.opacity = 0;
-    };
-
-    // change the glyph
-    document.getElementsByClassName('glyphicon glyphicon-eye-close')[0].className = 'glyphicon glyphicon-eye-open'; 
-  }
-};
