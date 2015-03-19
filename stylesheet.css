@@ -25,7 +25,10 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
     opacity: 0;
   }
   50% {
-    opacity: 1;
+    opacity: .9;
+  }
+  70% {
+    opacity: .9;
   }
   100% {
     opacity: 0;
@@ -37,7 +40,10 @@ http://www.script-tutorials.com/night-sky-with-twinkling-stars/
     opacity: 0;
   }
   50% {
-    opacity: 1;
+    opacity: .9;
+  }
+  70% {
+    opacity: .9;
   }
   100% {
     opacity: 0;
@@ -124,8 +130,8 @@ a:hover, a:visited, a:link, a:active {
   -o-transition: all 1s ease;
   transition: all 1s ease;
 
-  -webkit-animation: introFade 4s ease-out 3s;
-          animation: introFade 4s ease-out 3s;
+  -webkit-animation: introFade 10s ease-in-out 3s;
+          animation: introFade 10s ease-in-out 3s;
 }
 
 .const:hover .lines {
