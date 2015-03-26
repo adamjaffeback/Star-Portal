@@ -183,10 +183,10 @@ a:hover, a:visited, a:link, a:active {
   -o-transition: all 1s ease;
   transition: all 1s ease;
 
-  -webkit-animation: introFade 8s ease-in-out 2s;
-  -moz-animation: introFade 8s ease-in-out 2s;
-  -ms-animation: introFade 8s ease-in-out 2s;
-  animation: introFade 8s ease-in-out 2s;
+  -webkit-animation: introFade 8s ease-in-out 200ms;
+  -moz-animation: introFade 8s ease-in-out 200ms;
+  -ms-animation: introFade 8s ease-in-out 200ms;
+  animation: introFade 8s ease-in-out 200ms;
   
 }
 
@@ -298,8 +298,8 @@ a:hover, a:visited, a:link, a:active {
 
 div.lines > p {
   position: relative;
-  -webkit-animation: introStayDark 8s 2s;
-  -moz-animation: introStayDark 8s 2s;
-  -ms-animation: introStayDark 8s 2s;
-  animation: introStayDark 8s 2s;
+  -webkit-animation: introStayDark 8s 200ms;
+  -moz-animation: introStayDark 8s 200ms;
+  -ms-animation: introStayDark 8s 200ms;
+  animation: introStayDark 8s 200ms;
 }
