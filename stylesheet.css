@@ -213,10 +213,6 @@ a:hover, a:visited, a:link, a:active {
 #AB p {
   top: 8em;
   left: 7em;
-  -webkit-animation: introStayDark 8s 2s;
-  -moz-animation: introStayDark 8s 2s;
-  -ms-animation: introStayDark 8s 2s;
-  animation: introStayDark 8s 2s;
 }
 
 #blog.const {
