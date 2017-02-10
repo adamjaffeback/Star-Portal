@@ -1,13 +1,13 @@
 {
   "name": "Star-Portal",
   "version": "1.0.0",
-  "description": "Personal webpage for Adam Back",
+  "description": "Personal webpage for Adam Jaffe Back",
   "main": "server.js",
   "scripts": {
     "test": "mocha",
     "start": "node server.js"
   },
-  "author": "Adam Back",
+  "author": "Adam Jaffe Back",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^3.3.2",
