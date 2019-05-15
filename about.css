@@ -4,7 +4,7 @@ html, body, #left-bar, #right-bar {
     height: 100%;
 }
 
-body { 
+body {
   background: transparent center center;
   min-height: 100%;
 }
@@ -35,10 +35,6 @@ body {
 
 p {
   font-size: 1.25em;
-}
-
-div {
-  overflow: scroll;
 }
 
 a:hover, a:visited, a:link, a:active {
