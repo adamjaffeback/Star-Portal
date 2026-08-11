@@ -163,7 +163,7 @@ a:hover, a:visited, a:link, a:active {
   color: #687497;
   font-family: 'Noto Serif', serif;
   text-align: center;
-  opacity: .5;
+  opacity: 1;
 }
 
 .const {
