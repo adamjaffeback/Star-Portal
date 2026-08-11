@@ -296,6 +296,53 @@ a:hover, a:visited, a:link, a:active {
   left: 4em;
 }
 
+@keyframes hintFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes hintFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hint-badge {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .hint-badge {
+    display: block;
+    position: fixed;
+    left: 50%;
+    bottom: 2em;
+    transform: translateX(-50%);
+    padding: 0.5em 1.2em;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(104, 116, 151, 0.6);
+    border-radius: 2em;
+    color: #687497;
+    font-family: 'Noto Serif', serif;
+    font-size: 0.9em;
+    text-align: center;
+    white-space: nowrap;
+    opacity: 0;
+
+    -webkit-animation: hintFadeIn 1.5s ease-in-out 4.75s forwards;
+    -moz-animation: hintFadeIn 1.5s ease-in-out 4.75s forwards;
+    -ms-animation: hintFadeIn 1.5s ease-in-out 4.75s forwards;
+    animation: hintFadeIn 1.5s ease-in-out 4.75s forwards;
+  }
+}
+
 div.lines > p {
   position: relative;
   -webkit-animation: introStayDark 4s 750ms;
