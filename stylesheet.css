@@ -166,6 +166,10 @@ a:hover, a:visited, a:link, a:active {
   opacity: 1;
 }
 
+.const-link {
+  display: block;
+}
+
 .const {
   width: 11em;
   height: 11em;
@@ -326,6 +330,38 @@ body.illuminate .const .lines {
 }
 
 @media (min-width: 992px) {
+  .constellations {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto;
+    row-gap: 1em;
+  }
+
+  #link-linkedin {
+    grid-column: 2 / 6;
+    grid-row: 1;
+  }
+
+  #link-github {
+    grid-column: 9 / 12;
+    grid-row: 1;
+  }
+
+  #link-about {
+    grid-column: 6 / 10;
+    grid-row: 2;
+  }
+
+  #link-blog {
+    grid-column: 2 / 5;
+    grid-row: 3;
+  }
+
+  #link-travel {
+    grid-column: 10 / 13;
+    grid-row: 3;
+  }
+
   .hint-badge {
     display: block;
     position: fixed;
