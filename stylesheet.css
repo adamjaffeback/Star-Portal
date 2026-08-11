@@ -326,12 +326,13 @@ a:hover, a:visited, a:link, a:active {
     bottom: 2em;
     transform: translateX(-50%);
     padding: 0.5em 1.2em;
-    background: rgba(220, 223, 230, 0.9);
+    background: rgba(0, 0, 0, 0.35);
     border: 1px solid rgba(104, 116, 151, 0.6);
     border-radius: 2em;
-    color: #1c1f2b;
+    box-shadow: 0 0 0.8em rgba(255, 255, 255, 0.6);
+    color: #fff;
     font-family: 'Noto Serif', serif;
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
     white-space: nowrap;
     opacity: 0;
