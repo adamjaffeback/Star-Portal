@@ -342,6 +342,11 @@ body.illuminate .const .lines {
     font-size: 1em;
     text-align: center;
     white-space: nowrap;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     opacity: 0;
 
     -webkit-animation: hintFadeIn 1.5s ease-in-out 4.75s forwards;
