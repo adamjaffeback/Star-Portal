@@ -73,5 +73,11 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src='mobile.js'></script>
+    <script>
+      $('#hint-badge').hover(
+        function () { $('body').addClass('illuminate'); },
+        function () { $('body').removeClass('illuminate'); }
+      );
+    </script>
   </body>
 </html>

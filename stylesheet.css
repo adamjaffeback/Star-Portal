@@ -196,6 +196,13 @@ a:hover, a:visited, a:link, a:active {
   opacity: 1;
 }
 
+body:has(#hint-badge:hover) .const .lines,
+body.illuminate .const .lines {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+
 #AB.const {
   width: 12.5em;
   height: 12.5em;
