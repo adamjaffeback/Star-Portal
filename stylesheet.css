@@ -161,7 +161,7 @@ a:hover, a:visited, a:link, a:active {
   font-size: 1.5em;
   text-decoration: none;
   color: #687497;
-  font-family: 'Noto Serif', serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   opacity: 1;
 }
@@ -331,7 +331,7 @@ a:hover, a:visited, a:link, a:active {
     border-radius: 2em;
     box-shadow: 0 0 0.8em rgba(255, 255, 255, 0.6);
     color: #fff;
-    font-family: 'Noto Serif', serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1em;
     text-align: center;
     white-space: nowrap;
